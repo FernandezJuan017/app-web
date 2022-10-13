@@ -4,11 +4,11 @@
     box-sizing: border-box;
   }
   
-  body{
+body{
     min-height: 100vh;
-  }
+}
   
-  .section-main{
+.section-main{
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -19,9 +19,9 @@
     justify-content: center;
     align-items: center;
     padding: 20px 80px;
-  }
+}
   
-  .section-main h1{
+.section-main h1{
     color: #FF1D1C;
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
@@ -29,9 +29,9 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 80px;
-  }
+}
   
-  .header-index{
+.header-index{
     z-index: 999;
     position: fixed;
     top: 0;
@@ -42,41 +42,41 @@
     align-items: center;
     padding: 20px 80px;
     transition: 0.6s;
-  }
+}
 
-  .header-index.down{
+.header-index.down{
     background: #001030;
     padding: 15px 80px;
-  }
+}
   
-  .header-index .brand{
+.header-index .brand{
     color: #fff;
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
-  }
+}
   
-  .header-index .menu{
+.header-index .menu{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .header-index .menu ul{
+.header-index .menu ul{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .header-index .menu ul li{
+.header-index .menu ul li{
       list-style: none;
-  }
+}
   
-  .header-index .menu a{
+.header-index .menu a{
     color: #ff1d1c;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -87,28 +87,29 @@
     border-radius: 20px;
     transition: 0.3s;
     transition-property: color, background;
-  }
+}
   
-  .header-index .menu a:hover{
+.header-index .menu a:hover{
     color: #000;
     background: #fff;
-  }
+}
   
-  .section-two{
+.section-two{
     padding: 20px;
-  }
+}
   
-  .header-index .btn{
+.header-index .btn{
     color: #fff;
     font-size: 25px;
     cursor: pointer;
     display: none;
-  }
-  #logo-img{
+}
+  
+#logo-img{
     width: 200px;
-  }
+}
 
-  @media (max-width: 991px){
+@media (max-width: 991px){
     .header-index, .header-index.down{
         padding: 20px 40px;
     }
@@ -149,11 +150,11 @@
       margin: 20px;
       padding: 0 15px;
     }
-  }
+}
   
-  @media (max-width: 600px){
+@media (max-width: 600px){
     .section-main h1{
       font-size: 50px;
       line-height: 60px;
     }
-  }
+}
