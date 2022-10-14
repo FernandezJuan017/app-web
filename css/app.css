@@ -90,8 +90,8 @@ body{
 }
   
 .header-index .menu a:hover{
-    color: #000;
-    background: #fff;
+    color: #001030;
+    background: #ffffff;
 }
   
 .section-two{
@@ -157,4 +157,27 @@ body{
       font-size: 50px;
       line-height: 60px;
     }
+}
+
+
+/* BOTON WHATSAPP */
+.boton-whatsapp{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    margin-right:1.8em;
+    margin-bottom: 1.8em;
+    z-index: 100;
+    background-color: rgb(83, 228, 83);
+    padding: 0.7em;
+    border-radius: 2em;
+    opacity: 1;
+}
+
+.foto-whatsapp{
+    width:2em;
+    height: 2em;
+}
+.foto-whatsapp:hover{
+    opacity: 0.8; 
 }
