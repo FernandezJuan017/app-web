@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+   height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*carrusel*/
+.carrusel{
+    width: 800px;
+    height: 650px;
+    overflow: hidden;
+
+}
+.imgs{
+    display: flex;
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+}
+.controles{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    border: none;
+    background-color: goldenrod;
+    flex-basis: 33%;
+    cursor: pointer;
+}
