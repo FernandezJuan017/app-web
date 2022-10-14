@@ -94,9 +94,9 @@ body{
     background: #ffffff;
 }
   
-.section-two{
+/* .section-two{
     padding: 20px;
-}
+} */
   
 .header-index .btn{
     color: #fff;
@@ -210,3 +210,90 @@ body{
 }
 @keyframes typing { from { width: 0}}
 @keyframes blink {50% {border-color: transparent}}
+
+
+
+/* GRID */
+main .contenedor-grid {
+    margin-top: 9em;
+    margin-bottom: 9em;
+    margin-right: 2em;
+    margin-left: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "consulta medio sitio";
+    text-align: center; 
+}
+main .contenedor-grid .consultas {
+    grid-area: consulta;
+    border-right: 2px solid #ff1d1c;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+}
+
+main .contenedor-grid .consultas h3 {
+    font-weight: bold;
+    color: #ff1d1c;
+    margin-bottom: 0.5em;
+}
+
+main .contenedor-grid .consultas i {
+    margin-bottom: 1em; 
+    color: #001030;
+    border-top-left-radius: 0.8em;
+    border-top-right-radius: 0.8em;
+    border-bottom-right-radius: 0.8em;
+    opacity: 1; 
+}
+
+main .contenedor-grid .consultas i:hover {
+    opacity: 0.8; 
+    color: #ff1d1c;
+}
+
+main .contenedor-grid .medios {
+    grid-area: medio;
+    padding: 1em;
+    border-right: 2px solid #ff1d1c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+main .contenedor-grid .medios h3 {
+    font-weight: bold;
+    color:#ff1d1c;
+    margin-bottom: 0.5em;
+
+}
+      
+main .contenedor-grid .medios i {
+    margin-bottom: 1em; 
+    color: #001030;
+    border-radius: 0.3em;
+    background-color: none;
+}
+
+
+main .contenedor-grid .sitio {
+    grid-area: sitio;
+    border-right: none;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+main .contenedor-grid .sitio h3 {
+    font-weight:bold; 
+    color: #ff1d1c;
+    margin-bottom: 0.5em;
+
+}
+    
+main .contenedor-grid .sitio i{
+    margin-bottom: 1em; 
+    border-radius: 0.3em;
+    background-color: none; 
+    color: #001030;
+}
