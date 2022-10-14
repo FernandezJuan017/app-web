@@ -7,6 +7,11 @@
 body{
   min-height: 100vh;
 }
+main{
+  margin-top: 7em;
+  display: flex;
+  min-height: 100vh;
+}
   
 .header-nav{
   background-color: #001030;
