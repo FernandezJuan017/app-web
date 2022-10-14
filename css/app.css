@@ -94,9 +94,6 @@ body{
     background: #ffffff;
 }
   
-/* .section-two{
-    padding: 20px;
-} */
   
 .header-index .btn{
     color: #fff;
@@ -108,57 +105,6 @@ body{
 #logo-img{
     width: 200px;
 }
-
-@media (max-width: 991px){
-    .header-index, .header-index.down{
-        padding: 20px 40px;
-    }
-    .header-index .btn{
-      display: block;
-    }
-  
-    .header-index .menu{
-      position: fixed;
-      background: #001030;
-      min-width: 330px;
-      height: 100vh;
-      top: 0;
-      right: -100%;
-      padding: 80px 50px;
-      transition: 0.5s;
-      transition-property: right;
-    }
-  
-    .header-index .menu ul{
-        flex-direction: column;
-      }
-  
-    .header-index .menu.active{
-      right: 0;
-    }
-  
-    .header-index .menu .close-btn{
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin: 25px;
-    }
-  
-    .header-index .menu a{
-      display: block;
-      font-size: 20px;
-      margin: 20px;
-      padding: 0 15px;
-    }
-}
-  
-@media (max-width: 600px){
-    .section-main h1{
-      font-size: 50px;
-      line-height: 60px;
-    }
-}
-
 
 /* BOTON WHATSAPP */
 .boton-whatsapp{
@@ -212,9 +158,8 @@ body{
 @keyframes blink {50% {border-color: transparent}}
 
 
-
 /* GRID */
-main .contenedor-grid {
+main .contenedor-grid{
     margin-top: 9em;
     margin-bottom: 9em;
     margin-right: 2em;
@@ -225,7 +170,8 @@ main .contenedor-grid {
     grid-template-areas: "consulta medio sitio";
     text-align: center; 
 }
-main .contenedor-grid .consultas {
+
+main .contenedor-grid .consultas{
     grid-area: consulta;
     border-right: 2px solid #ff1d1c;
     padding: 1em;
@@ -233,13 +179,13 @@ main .contenedor-grid .consultas {
     font-weight: bold; 
 }
 
-main .contenedor-grid .consultas h3 {
+main .contenedor-grid .consultas h3{
     font-weight: bold;
     color: #ff1d1c;
     margin-bottom: 0.5em;
 }
 
-main .contenedor-grid .consultas i {
+main .contenedor-grid .consultas i{
     margin-bottom: 1em; 
     color: #001030;
     border-top-left-radius: 0.8em;
@@ -248,12 +194,12 @@ main .contenedor-grid .consultas i {
     opacity: 1; 
 }
 
-main .contenedor-grid .consultas i:hover {
+main .contenedor-grid .consultas i:hover{
     opacity: 0.8; 
     color: #ff1d1c;
 }
 
-main .contenedor-grid .medios {
+main .contenedor-grid .medios{
     grid-area: medio;
     padding: 1em;
     border-right: 2px solid #ff1d1c;
@@ -261,14 +207,14 @@ main .contenedor-grid .medios {
     font-weight: bold;
 }
 
-main .contenedor-grid .medios h3 {
+main .contenedor-grid .medios h3{
     font-weight: bold;
     color:#ff1d1c;
     margin-bottom: 0.5em;
 
 }
       
-main .contenedor-grid .medios i {
+main .contenedor-grid .medios i{
     margin-bottom: 1em; 
     color: #001030;
     border-radius: 0.3em;
@@ -276,7 +222,7 @@ main .contenedor-grid .medios i {
 }
 
 
-main .contenedor-grid .sitio {
+main .contenedor-grid .sitio{
     grid-area: sitio;
     border-right: none;
     padding: 1em;
@@ -284,7 +230,7 @@ main .contenedor-grid .sitio {
     font-weight: bold;
 }
 
-main .contenedor-grid .sitio h3 {
+main .contenedor-grid .sitio h3{
     font-weight:bold; 
     color: #ff1d1c;
     margin-bottom: 0.5em;
@@ -296,4 +242,84 @@ main .contenedor-grid .sitio i{
     border-radius: 0.3em;
     background-color: none; 
     color: #001030;
+}
+
+
+/* MEDIA QUERIES PARA EL GRID */
+@media (max-width:480px){
+    /* SECCION DOS DEL INDEX */
+    main .contenedor-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas: 
+            "consulta"
+            "medio"
+            "sitio";
+    }
+    main .contenedor-grid .medios{
+        border-right: none;
+        border-bottom: 2px solid #001030;
+        margin-top: 2em;
+    }
+
+    main .contenedor-grid .sitio{
+        margin-top: 2em;
+    }
+    
+    main .contenedor-grid .consultas{
+        border-right: none;
+        border-bottom: 2px solid #001030; 
+    }
+
+}
+
+/* MEDIA QUERIES PARA EL HEADER */
+@media (max-width: 991px){
+    .header-index, .header-index.down{
+        padding: 20px 40px;
+    }
+    .header-index .btn{
+      display: block;
+    }
+  
+    .header-index .menu{
+      position: fixed;
+      background: #001030;
+      min-width: 330px;
+      height: 100vh;
+      top: 0;
+      right: -100%;
+      padding: 80px 50px;
+      transition: 0.5s;
+      transition-property: right;
+    }
+  
+    .header-index .menu ul{
+        flex-direction: column;
+      }
+  
+    .header-index .menu.active{
+      right: 0;
+    }
+  
+    .header-index .menu .close-btn{
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 25px;
+    }
+  
+    .header-index .menu a{
+      display: block;
+      font-size: 20px;
+      margin: 20px;
+      padding: 0 15px;
+    }
+}
+  
+@media (max-width: 600px){
+    .section-main h1{
+      font-size: 50px;
+      line-height: 60px;
+    }
 }
