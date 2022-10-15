@@ -94,9 +94,6 @@ body{
     background: #ffffff;
 }
   
-.section-two{
-    padding: 20px;
-}
   
 .header-index .btn{
     color: #fff;
@@ -108,57 +105,6 @@ body{
 #logo-img{
     width: 200px;
 }
-
-@media (max-width: 991px){
-    .header-index, .header-index.down{
-        padding: 20px 40px;
-    }
-    .header-index .btn{
-      display: block;
-    }
-  
-    .header-index .menu{
-      position: fixed;
-      background: #001030;
-      min-width: 330px;
-      height: 100vh;
-      top: 0;
-      right: -100%;
-      padding: 80px 50px;
-      transition: 0.5s;
-      transition-property: right;
-    }
-  
-    .header-index .menu ul{
-        flex-direction: column;
-      }
-  
-    .header-index .menu.active{
-      right: 0;
-    }
-  
-    .header-index .menu .close-btn{
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin: 25px;
-    }
-  
-    .header-index .menu a{
-      display: block;
-      font-size: 20px;
-      margin: 20px;
-      padding: 0 15px;
-    }
-}
-  
-@media (max-width: 600px){
-    .section-main h1{
-      font-size: 50px;
-      line-height: 60px;
-    }
-}
-
 
 /* BOTON WHATSAPP */
 .boton-whatsapp{
@@ -210,3 +156,329 @@ body{
 }
 @keyframes typing { from { width: 0}}
 @keyframes blink {50% {border-color: transparent}}
+
+
+/* GRID */
+main .contenedor-grid{
+    margin-top: 9em;
+    margin-bottom: 9em;
+    margin-right: 2em;
+    margin-left: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "consulta medio sitio";
+    text-align: center; 
+}
+
+main .contenedor-grid .consultas{
+    grid-area: consulta;
+    border-right: 2px solid #ff1d1c;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+}
+
+main .contenedor-grid .consultas h3{
+    font-weight: bold;
+    color: #ff1d1c;
+    margin-bottom: 0.5em;
+}
+
+main .contenedor-grid .consultas i{
+    margin-bottom: 1em; 
+    color: #001030;
+    border-top-left-radius: 0.8em;
+    border-top-right-radius: 0.8em;
+    border-bottom-right-radius: 0.8em;
+    opacity: 1; 
+}
+
+main .contenedor-grid .consultas i:hover{
+    opacity: 0.8; 
+    color: #ff1d1c;
+}
+
+main .contenedor-grid .medios{
+    grid-area: medio;
+    padding: 1em;
+    border-right: 2px solid #ff1d1c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+main .contenedor-grid .medios h3{
+    font-weight: bold;
+    color:#ff1d1c;
+    margin-bottom: 0.5em;
+
+}
+      
+main .contenedor-grid .medios i{
+    margin-bottom: 1em; 
+    color: #001030;
+    border-radius: 0.3em;
+    background-color: none;
+}
+
+
+main .contenedor-grid .sitio{
+    grid-area: sitio;
+    border-right: none;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+main .contenedor-grid .sitio h3{
+    font-weight:bold; 
+    color: #ff1d1c;
+    margin-bottom: 0.5em;
+
+}
+    
+main .contenedor-grid .sitio i{
+    margin-bottom: 1em; 
+    border-radius: 0.3em;
+    background-color: none; 
+    color: #001030;
+}
+
+/* SECCION DOS */
+.imagen-fondo{
+    background-image: url(../assets/images/prueba6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+    margin-bottom: 9em;
+}
+
+.titulo-banner{
+    color: #ff1d1c;
+    text-align: center;
+    padding-top: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+}
+.texto-banner{
+    color: #ff1d1c;
+    text-align: center;
+    padding-top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* SECCION TRES - PRODUCTOS */
+.seccion-productos{
+    margin-bottom: 9em;
+    background-color: #ff1d1c;
+    padding: 2em;
+}
+.seccion-productos h2{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+}
+.contenedor-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.div-producto{
+    width: 18em;
+    height: 24.063em;
+    margin: 0.2em;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    text-align: center;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.12);
+
+}
+.div-producto h3{
+    color: #001030;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+}
+.div-producto img{
+    width:17.875em;
+    height: 16.875em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    transition: all 1s ease;
+}
+.div-producto img:hover{
+    opacity: 0.8;
+}
+.titulo-card{
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    font-size: 1.2em;
+    padding:0.2em;
+
+}
+.boton-hace-tu-pedido{
+    text-decoration: none;
+    color: #ff1d1c;
+    font-family: 'Montserrat', cursive ;
+}
+.div-producto .boton-card{
+    padding: 0.7em;
+    margin-top: 1.5em;
+    background-color: #001030;
+    border-radius: 0.2em;
+    border: none;
+
+}
+.div-producto .boton-card:hover{
+    background-color: #ff1d1c;
+    
+}
+.div-producto .boton-card .boton-hace-tu-pedido:hover{
+    color: #ffffff;
+}
+
+.div-ver-todos{
+    text-align: center;
+}
+
+.div-ver-todos .boton-ver-todos{
+    padding: 0.7em;
+    border-radius: 0.2em;
+    border:none
+}
+
+.div-ver-todos a{
+    text-decoration: none;
+    font-family: 'Montserrat', cursive;
+    color: #001030;
+    font-weight: bold;
+}
+
+.boton-ver-todos:hover{
+    background-color: #001030;
+}
+.boton-ver-todos a:hover{
+    color: #ff1d1c;
+}
+
+/* SECCION CUATRO */
+
+.seccion-cuatro{
+    margin-bottom: 9em;
+    margin-left: 2em;
+    margin-right: 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.div-descripcion{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-descripcion h3{
+    margin-bottom: 1em;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ff1d1c;
+    font-size: 2em;
+}
+.div-descripcion p{
+    font-family: 'Montserrat', cursive;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+
+/* MEDIA QUERIES PARA EL GRID */
+@media (max-width:480px){
+    /* SECCION DOS DEL INDEX */
+    main .contenedor-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas: 
+            "consulta"
+            "medio"
+            "sitio";
+    }
+    main .contenedor-grid .medios{
+        border-right: none;
+        border-bottom: 2px solid #001030;
+        margin-top: 2em;
+    }
+
+    main .contenedor-grid .sitio{
+        margin-top: 2em;
+    }
+    
+    main .contenedor-grid .consultas{
+        border-right: none;
+        border-bottom: 2px solid #001030; 
+    }
+
+}
+
+/* MEDIA QUERIES PARA EL HEADER */
+@media (max-width: 991px){
+    .header-index, .header-index.down{
+        padding: 20px 40px;
+    }
+    .header-index .btn{
+      display: block;
+    }
+  
+    .header-index .menu{
+      position: fixed;
+      background: #001030;
+      min-width: 330px;
+      height: 100vh;
+      top: 0;
+      right: -100%;
+      padding: 80px 50px;
+      transition: 0.5s;
+      transition-property: right;
+    }
+  
+    .header-index .menu ul{
+        flex-direction: column;
+      }
+  
+    .header-index .menu.active{
+      right: 0;
+    }
+  
+    .header-index .menu .close-btn{
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 25px;
+    }
+  
+    .header-index .menu a{
+      display: block;
+      font-size: 20px;
+      margin: 20px;
+      padding: 0 15px;
+    }
+}
+  
+@media (max-width: 600px){
+    .section-main h1{
+      font-size: 50px;
+      line-height: 60px;
+    }
+}
