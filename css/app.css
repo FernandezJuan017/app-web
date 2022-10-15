@@ -244,6 +244,7 @@ main .contenedor-grid .sitio i{
     color: #001030;
 }
 
+/* SECCION DOS */
 .imagen-fondo{
     background-image: url(../assets/images/prueba6.jpg);
     background-repeat: no-repeat;
@@ -256,14 +257,119 @@ main .contenedor-grid .sitio i{
 .titulo-banner{
     color: #ff1d1c;
     text-align: center;
-    padding-top: 5em;
+    padding-top: 2em;
     font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
 }
 .texto-banner{
     color: #ff1d1c;
     text-align: center;
     padding-top: 1em;
     font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* SECCION TRES - PRODUCTOS */
+.seccion-productos{
+    margin-bottom: 9em;
+    background-color: #ff1d1c;
+    padding: 2em;
+}
+.seccion-productos h2{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+}
+.contenedor-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.div-producto{
+    width: 18em;
+    height: 24.063em;
+    margin: 0.2em;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    text-align: center;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.12);
+
+}
+.div-producto h3{
+    color: #001030;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+}
+.div-producto img{
+    width:17.875em;
+    height: 16.875em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    transition: all 1s ease;
+}
+.div-producto img:hover{
+    opacity: 0.8;
+}
+.titulo-card{
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    font-size: 1.2em;
+    padding:0.2em;
+
+}
+.boton-hace-tu-pedido{
+    text-decoration: none;
+    color: #ff1d1c;
+    font-family: 'Montserrat', cursive ;
+}
+.div-producto .boton-card{
+    padding: 0.7em;
+    margin-top: 1.5em;
+    background-color: #001030;
+    border-radius: 0.2em;
+    border: none;
+
+}
+.div-producto .boton-card:hover{
+    background-color: #ff1d1c;
+    
+}
+.div-producto .boton-card .boton-hace-tu-pedido:hover{
+    color: #ffffff;
+}
+
+.div-ver-todos{
+    text-align: center;
+}
+
+.div-ver-todos .boton-ver-todos{
+    padding: 0.7em;
+    border-radius: 0.2em;
+    border:none
+}
+
+.div-ver-todos a{
+    text-decoration: none;
+    font-family: 'Montserrat', cursive;
+    color: #001030;
+    font-weight: bold;
+}
+
+.boton-ver-todos:hover{
+    background-color: #001030;
+}
+.boton-ver-todos a:hover{
+    color: #ff1d1c;
 }
 
 /* MEDIA QUERIES PARA EL GRID */
