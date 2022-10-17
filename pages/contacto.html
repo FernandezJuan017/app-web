@@ -35,23 +35,38 @@
         </div>
       </header>
 
-      <main class="container">
-        <div class="row">
-          <div class="col-12 ">
-            <h2>HACE TU PEDIDO</h2>
-            <div class="mb-3">
-              <label for="formGroupExampleInput" class="form-label">Example label</label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+      <main class="contacto">        
+          <div class="formulario">
+            <div class="titulo">
+            <h2 style="font-weight: bold;">CONTACTO</h2>    
+            <h5>COMPLETE ESTE FORMULARIO</h5>        
+            </div>          
+            <form action="mailto:direcciondelcorreo@correo.com" method="post" enctype="text/plain">
+            <div class="datoContacto">              
+              <label class="form-label">Nombre y Apellido</label>
+              <input type="text" class="form-control" placeholder="Coloque su nombre completo">
             </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput2" class="form-label">Another label</label>
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+            <div class="datoContacto">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Utilice su email habitual">
             </div>
-          </div>
-        </div>
+            <div class="datoContacto">
+              <label class="form-label">Número de Whatsapp</label>
+              <input type="text" class="form-control" placeholder="Podriamos contactarnos por whatsapp">
+            </div>
+            <div class="datoContacto">
+              <label class="form-label">Su Mensaje</label>
+              <textarea name="mensaje" id="" cols="30" rows="10" class="form-control" placeholder="Describanos lo que desea consultar"></textarea>
+            </div>            
+            <div class="datoContacto">
+              <input type="submit" value="ENVIAR" class="btnSubmit">
+              <input type="reset" value="LIMPIAR" class="btnSubmit">
+              <!--<button class="btnSubmit" type="submit">ENVIAR MENSAJE</button>
+              <button class="btnSubmit" type="reset">LIMPIAR</button>-->
+            </div>
+          </form>            
+          </div>        
       </main>
-
-
 
       <footer>
         <section class="section-footer">

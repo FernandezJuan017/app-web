@@ -1,4 +1,45 @@
-
-
-
+*{
+    font-size: small;
+    color: #001030;
+}
+.contacto{
+    font-family: 'Monsterrat', sans-serif;
+}
+.formulario{    
+    width: 50%;
+    margin: 2em;
+    padding: 5px;
+    display: flex;
+    flex-flow: column;
+    border-color: #001030;
+    border-style: outset;
+}
+.titulo{
+    margin: 10px;
+    padding: 10px;    
+}
+.form-label{
+    margin: 5px;
+    padding: 5px;
+}
+.form-control{
+    font-size: small;
+}
+.datoContacto{
+    font-size: small;
+    margin: 5px;
+    padding: 5px;
+}
+.btnSubmit{    
+    font-size: smaller;
+    padding: 10px 10px;
+    border: .5px solid #d2d0d0;
+    background: transparent;
+    border-radius: 6px;
+    text-align: center;
+}
+.btnSubmit:hover {
+    background-color: #d2d0d0;
+    color: black;
+}
 

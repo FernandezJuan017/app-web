@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,29 +16,45 @@
 </head>
 <body>
     <header class="header-nav">
-        <a href="/index.html" class="brand">
-            <img src="/assets/images/logo2.jpg" id="logo-img">
-        </a>
-        <nav class="menu-nav" >
-          <div class="btn">
-            <i class="fas fa-times close-btn"></i>
-          </div>
-          <ul class="ul-nav">
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/pages/catalogo.html">Catálogo</a></li>
-              <li><a href="/pages/donde-estamos.html">Dónde estamos</a></li>
-              <li><a href="/pages/contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
+      <a href="/index.html" class="brand">
+        <img src="/assets/images/logo2.jpg" id="logo-img">
+      </a>
+      <nav class="menu-nav">
         <div class="btn">
-          <i class="fas fa-bars menu-btn"></i>
+          <i class="fas fa-times close-btn"></i>
         </div>
-      </header>
+        <ul class="ul-nav">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/catalogo.html">Catálogo</a></li>
+          <li><a href="/pages/donde-estamos.html">Dónde estamos</a></li>
+          <li><a href="/pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
 
-       <!--ACA EL CUERPO--> 
+      <!--ACA EL CUERPO-->
       <main>
-        
-      </main>  
+        <section class="ubicacion">
+          <div class="mapaDibujo">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3283.981415405086!2d-58.44083010244496!3d-34.60463145234948!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0d55aba211%3A0xc1bdad99d327755!2sLeopoldo%20Marechal%201226%201E%2C%20C1414%20CABA!5e0!3m2!1ses!2sar!4v1665878357587!5m2!1ses!2sar"
+              width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="mapaDireccion">
+            <h4 style="font-weight: bold;">NUESTRO LOCAL</h4>
+            <p>Leopoldo Marechal 1226, CABA, AR</p>
+            <p>Teléfono 4717 2472</p>
+            <p>Horarios:</p>
+            <p>Lunes a Domingo de 10 a 21hs</p>
+            <p>Te esperamos!</p>
+          </div>
+        </section>
+      
+      </main>
 
       <footer>
         <section class="section-footer">
