@@ -1,0 +1,18 @@
+*{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: small;   
+}
+.ubicacion{
+    margin: 10px;    
+    padding: 10px;
+    color: #001030;
+    display: flex;
+    justify-content: space-around;
+}
+.mapaDibujo{    
+    margin: 10px;
+}
+.mapaDireccion{
+    margin: 10px;
+    width: 30%;
+}
