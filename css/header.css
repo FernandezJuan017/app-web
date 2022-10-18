@@ -88,7 +88,9 @@ main{
   cursor: pointer;
   display: none;
 }
-    
+.btn .menu-btn:hover{
+  color: #ff1d1c;
+}  
 #logo-img{
   width: 200px;
 }
