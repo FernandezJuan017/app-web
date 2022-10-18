@@ -5,6 +5,7 @@
     flex-flow: wrap;
     margin-left: 80px;
     margin-right: 50px;
+    z-index: -1;
 }
 .card{
     width: 20%;
@@ -13,7 +14,6 @@
     border: 1px solid #ccc;
     margin-bottom: 50px;
     transition: 0.3s; 
-    z-index: 0;
  }
 
 .card-image > img{
@@ -44,10 +44,8 @@
 }
 
 .card:hover {
-    z-index: auto !important;
     transform: scale(1.05);
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-    
 }
 
 @media screen and (max-width: 1200px) {
