@@ -8,7 +8,7 @@ body{
   min-height: 100vh;
 }
 main{
-  margin-top: 7em;
+  margin-top: 9em;
   display: flex;
   min-height: 100vh;
 }
@@ -24,6 +24,7 @@ main{
   padding: 20px 80px;
   transition: 0.6s;
   position: fixed; 
+  z-index: 1;
 }
 
 .header-nav.down{
@@ -64,8 +65,8 @@ main{
   font-weight: 700;
   text-decoration: none;
   font-size: 16px;
-  padding: 0 10px;
-  margin: 0 30px ;
+  margin: 0 25px ;
+  padding:0.5em;
   transition: 0.3s;
   border-radius: 20px;
   transition-property: color, background;
@@ -73,6 +74,7 @@ main{
 
 .ul-nav{
   margin-bottom: 0;
+  padding-left: 0;
 }
     
 .header-nav .menu-nav a:hover{
@@ -86,7 +88,9 @@ main{
   cursor: pointer;
   display: none;
 }
-    
+.btn .menu-btn:hover{
+  color: #ff1d1c;
+}  
 #logo-img{
   width: 200px;
 }
@@ -131,5 +135,11 @@ main{
     font-size: 20px;
     margin: 20px;
     padding: 0 15px;
+  }
+}
+@media (max-width: 600px){
+  .section-main h1{
+    font-size: 50px;
+    line-height: 60px;
   }
 }
