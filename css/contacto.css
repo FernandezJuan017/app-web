@@ -1,9 +1,12 @@
-*{
-    font-size: small;
-    color: #001030;
-}
 .contacto{
+    font-size: small;
+    color: #001030; 
     font-family: 'Monsterrat', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .formulario{    
     width: 50%;
@@ -15,31 +18,37 @@
     border-style: outset;
 }
 .titulo{
-    margin: 10px;
-    padding: 10px;    
+    margin: 1px;
+    padding: 1px;    
 }
 .form-label{
-    margin: 5px;
-    padding: 5px;
+    margin: 2px;
+    padding: 2px;
 }
 .form-control{
     font-size: small;
 }
 .datoContacto{
     font-size: small;
-    margin: 5px;
-    padding: 5px;
+    margin: 2px;
+    padding: 2px;
+
+}
+.lineaBtn{
+    width: 100%;
+    font-size: small;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .btnSubmit{    
-    font-size: smaller;
-    padding: 10px 10px;
-    border: .5px solid #d2d0d0;
-    background: transparent;
-    border-radius: 6px;
-    text-align: center;
+    color: #fff;
+    padding: 10px 10px;    
+    background-color: #001030;
+    border-radius: 0.2em;
+    border: none;
 }
 .btnSubmit:hover {
-    background-color: #d2d0d0;
-    color: black;
+    background-color: #ff1d1c;
 }
-
