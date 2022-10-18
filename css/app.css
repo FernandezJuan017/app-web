@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
 body{
     min-height: 100vh;
@@ -21,7 +21,7 @@ body{
     padding: 20px 80px;
 }
   
-/* .section-main .contenedor h1{
+.section-main .contenedor h1{
     color: #FF1D1C;
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
@@ -29,7 +29,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 80px;
-} */
+}
   
 .header-index{
     z-index: 999;
@@ -49,14 +49,14 @@ body{
     padding: 15px 80px;
 }
   
-.header-index .brand{
+/* .header-index .brand{
     color: #fff;
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
-}
+} */
   
 .header-index .menu{
     position: relative;
@@ -75,7 +75,7 @@ body{
 .header-index .menu ul li{
       list-style: none;
 }
-  
+
 .header-index .menu a{
     color: #ff1d1c;
     font-family: 'Montserrat', sans-serif;
@@ -83,7 +83,7 @@ body{
     font-weight: 700;
     text-decoration: none;
     margin: 0 30px;
-    padding: 0 10px;
+    padding:0.5em;
     border-radius: 20px;
     transition: 0.3s;
     transition-property: color, background;
@@ -475,6 +475,8 @@ main .contenedor-grid .sitio i{
       padding: 0 15px;
     }
 }
+
+/* @media(min-withd) */
   
 @media (max-width: 600px){
     .section-main h1{
