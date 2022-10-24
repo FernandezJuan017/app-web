@@ -2,6 +2,35 @@
     font-family: 'Montserrat', sans-serif; 
     /* font-size: small;    */
 }
+.principal{
+    display:block;
+    margin-bottom: 3em;
+}
+
+.imagen-fondo{
+
+    background-image: url(../assets/images/prueba9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 30em;
+    margin-bottom: 3em;
+}
+
+.texto-banner{
+    color: #ff1d1c;
+    text-align: center;
+    padding-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.titulo-banner{
+    color: #ff1d1c;
+    text-align: center;
+    padding-top: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+}
 .ubicacion{
     margin: 10px;    
     padding: 10px;
