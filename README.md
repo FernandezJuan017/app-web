@@ -12,7 +12,7 @@ Se usó box modeling, flexbox, grids y bootstrap a distintas secciones de la pá
 
 ## CARPETAS
 
-1. assets: 
+1. assets
 
 - css: en ella se encuentran distintos archivos css para cada una de las secciones.
 - images: se encuentran las imagenes utilizadas en nuestra página.
@@ -26,7 +26,7 @@ Se usó box modeling, flexbox, grids y bootstrap a distintas secciones de la pá
 
 ## INDEX
 
-
+Página principal, se implementó flexbox y grid.  
 
 
 <!-- INTEGRANTES:
