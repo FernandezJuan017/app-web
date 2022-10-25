@@ -241,7 +241,7 @@ main .contenedor-grid .sitio i{
 
 /* SECCION DOS */
 .imagen-fondo{
-    background-image: url(../assets/images/prueba14.jpg);
+    background-image: url(../images/prueba14.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

@@ -8,7 +8,7 @@
 }
 
 .imagen-fondo{
-    background-image: url(../assets/images/prueba15.jpg);
+    background-image: url(../images/prueba15.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
