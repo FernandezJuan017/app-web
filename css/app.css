@@ -142,21 +142,16 @@ body{
     text-transform: uppercase;
 }
 
-#description-banner{
+#descripcion-banner{
     text-align: center;
     color: #ff1d1c;
     font-size:45px;
     display:block;
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
-    border-right: 2px solid #ff1d1c;
-    width: 10ch;
-    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
-    overflow:hidden;
+    font-size:9em;
+    background-color: #001030;
 }
-@keyframes typing { from { width: 0}}
-@keyframes blink {50% {border-color: transparent}}
-
 
 /* GRID */
 main .contenedor-grid{
@@ -246,12 +241,15 @@ main .contenedor-grid .sitio i{
 
 /* SECCION DOS */
 .imagen-fondo{
-    background-image: url(../assets/images/prueba6.jpg);
+    background-image: url(../assets/images/prueba14.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 20em;
     margin-bottom: 9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titulo-banner{
@@ -261,13 +259,32 @@ main .contenedor-grid .sitio i{
     font-family: 'Bebas Neue', cursive;
     font-size: 2.5em;
 }
-.texto-banner{
-    color: #ff1d1c;
+
+#boton-catalogo{
+    background-color: #ff1d1c;
     text-align: center;
-    padding-top: 1em;
-    font-family: 'Montserrat', sans-serif;
+    padding: 0.7em;
+    font-family: 'Montserrat', sans-serif; 
+    margin-top: 2em;
+    border: none;
+    border-radius: 0.2em;
+}
+
+#boton-catalogo:hover{
+    background-color: #001030;
     
 }
+
+#enlace-catalogo{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+}
+#enlace-catalogo:hover{
+    color: #ff1d1c;
+    font-weight: 900;
+}
+
 
 /* SECCION TRES - PRODUCTOS */
 .seccion-productos{
@@ -282,6 +299,7 @@ main .contenedor-grid .sitio i{
     font-size: 2.5em;
     margin-bottom: 1em;
     margin-top: 1em;
+
 
 }
 .contenedor-productos{
@@ -401,8 +419,6 @@ main .contenedor-grid .sitio i{
     font-size: 1em;
     text-align: center;
 }
-
-
 
 /* MEDIA QUERIES PARA EL GRID */
 @media (max-width:480px){
