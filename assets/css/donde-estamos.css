@@ -1,12 +1,11 @@
-*{
-    font-family: 'Montserrat', sans-serif; 
-}
+
 img, svg {
     vertical-align: middle;
 }
 .principal{
     display:block;
-    margin-bottom: 3em;
+    width: 100%;
+    /* margin-bottom: 3em; */
 }
 
 .imagen-fondo{
@@ -31,6 +30,7 @@ img, svg {
     font-family: 'Bebas Neue', cursive;
     font-size: 4.5em;
     font-weight: bold;
+
 }
 .ubicacion{
     margin: 10px;    
@@ -48,6 +48,7 @@ img, svg {
     margin: 10px;
     margin-top: 9em;
     width: 30%;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .mapaDireccion h2{
