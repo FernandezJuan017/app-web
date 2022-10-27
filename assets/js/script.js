@@ -6,9 +6,9 @@ window.addEventListener("scroll", function(){
       //change logo
       var logo = document.querySelector(".brand img");
       if (window.scrollY>0) {
-          logo.setAttribute('src', '/assets/images/logo2.jpg');
+          logo.setAttribute('src', 'assets/images/logo2.jpg');
       }else{
-          logo.setAttribute('src', '/assets/images/logo2.jpg');
+          logo.setAttribute('src', 'assets/images/logo2.jpg');
       }
 
   });
