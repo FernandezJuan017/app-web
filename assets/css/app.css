@@ -149,6 +149,7 @@ header .btn{
     font-weight: bold;
     font-size:8em;
     background-color: #001030;
+    padding: 0.2em;
 }
 
 /* GRID */
@@ -519,7 +520,7 @@ main .contenedor-grid .sitio i{
 }
 @media (min-width:768px) and (max-width:863px){
     .iframe-youtube{
-        width:750px;
+        width:700px;
 
     }
     .section-main h1{
@@ -543,6 +544,9 @@ main .contenedor-grid .sitio i{
     }
     .div-producto img{
         width:15em
+    }
+    .iframe-youtube{
+        width: 600px
     }
 }
 /* 
