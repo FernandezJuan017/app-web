@@ -147,8 +147,10 @@
     }
 
 }
-@media (max-width: 320px) {
-    
+@media (min-width: 320px) and (max-width:425px) {
+    .imagen-fondo{
+        height: 25em
+    }
     #catalogo{
         font-size: 3em;
     }
