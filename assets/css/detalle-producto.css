@@ -116,7 +116,7 @@
 }
 
 /* BOTON ARRIBA */
-.boton-arriba{
+/* .boton-arriba{
     position: fixed;
     bottom:0;
     right: 0;
@@ -140,7 +140,7 @@
 .boton-arriba button .icono:hover{
    
     color: #001030;
-}
+} */
 
 
 @media screen and (max-width: 1200px) {

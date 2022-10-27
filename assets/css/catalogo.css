@@ -1,5 +1,6 @@
 .principal{
-    display:block
+    display:block;
+    width: 100%;
 }
 
 /* seccion banner */
@@ -143,6 +144,13 @@
     .catalogo{
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+}
+@media (max-width: 320px) {
+    
+    #catalogo{
+        font-size: 3em;
     }
 
 }
