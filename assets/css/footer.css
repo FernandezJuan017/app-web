@@ -37,3 +37,33 @@ footer{
   color: #FF1D1C;
   border-radius: 1px;
 }
+
+/* MEDIA QUERYS */
+@media (max-width:500px){
+  .section-footer .redes{
+    margin-bottom: 1em;
+
+  }
+  .section-footer .redes a{
+    padding: 0.8em;
+
+  }
+  .section-footer .brand{
+    margin-bottom: 1em;
+
+  }
+}
+@media (min-width:500px) and (max-width:660px){
+  .section-footer .redes{
+    margin-bottom: 1em;
+
+  }
+  .section-footer .redes a{
+    padding: 2em;
+
+  }
+  .section-footer .brand{
+    margin-bottom: 1em;
+
+  }
+}

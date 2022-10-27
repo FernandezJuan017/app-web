@@ -100,6 +100,38 @@ main{
 #logo-img{
   width: 200px;
 }
+
+@media(max-width:320px){
+  
+  div.btn{
+    --bs-btn-padding-x:none;
+  } 
+
+  .header-nav .menu-nav{
+    position: fixed;
+    min-width: 330px;
+    /* background-color: #001030; */
+    top: 0;
+    height: 100vh;
+    padding: 50px 50px;
+    right: -100%;
+    transition-property: right;
+    transition: 0.5s;
+  }
+  
+  .header-nav .menu-nav .close-btn.active{
+    color: #fff;
+    
+  } 
+    
+  .header-nav .menu-nav.active{
+    right: 0;
+    padding: 10px;
+    background-color: #001030;
+  }
+    
+
+}
   
 @media (max-width: 991px){
   .header-nav, .header-nav.down{
@@ -112,7 +144,6 @@ main{
   .header-nav .menu-nav{
     position: fixed;
     min-width: 330px;
-    background: #001030;
     top: 0;
     height: 100vh;
     padding: 80px 50px;
@@ -127,6 +158,7 @@ main{
     
   .header-nav .menu-nav.active{
     right: 0;
+    background-color: #001030;
   }
     
   .header-nav .menu-nav .close-btn{
@@ -143,6 +175,7 @@ main{
     padding: 0 15px;
   }
 }
+
 @media (max-width: 600px){
   .section-main h1{
     font-size: 50px;

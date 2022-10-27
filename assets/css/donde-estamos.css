@@ -2,6 +2,7 @@
 img, svg {
     vertical-align: middle;
 }
+
 .principal{
     display:block;
     width: 100%;
@@ -38,6 +39,7 @@ img, svg {
     color: #001030;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .mapaDibujo{    
@@ -62,4 +64,56 @@ img, svg {
 
 .mapaDireccion p{
     font-size: 1.2em;
+}
+
+@media (max-width:320px){
+    .titulo-banner{
+        font-size: 2em;
+        padding-top: 6em;
+    }
+
+    .mapaDireccion{
+        margin: 1px;
+        width: 100%;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .iframe-ubicacion{
+        width: 315px;
+       
+    }
+}
+@media (min-width:320px) and (max-width:500px){
+    .titulo-banner{
+        font-size: 2em;
+        padding-top: 6em;
+    }
+
+    .mapaDireccion{
+        margin: 1px;
+        width: 100%;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .iframe-ubicacion{
+        width: 320px;
+       
+    }
+}
+@media (min-width:500px) and (max-width:811px){
+    .titulo-banner{
+        font-size: 4em;
+        padding-top: 3em;
+    }
+
+    .mapaDireccion{
+        margin: 1px;
+        width: 100%;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .iframe-ubicacion{
+        width: 500px;
+       
+    }
 }
