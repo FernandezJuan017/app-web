@@ -474,7 +474,7 @@ main .contenedor-grid .sitio i{
 
 @media (min-width: 320px) and (max-width:600px){
     .iframe-youtube{
-        width:315px;
+        width:300px;
 
     }
     #descripcion-banner{
@@ -497,7 +497,7 @@ main .contenedor-grid .sitio i{
 
 @media (min-width:600px) and (max-width:768px){
     .iframe-youtube{
-        width:600px;
+        width:550px;
 
     }
     .section-main h1{
