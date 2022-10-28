@@ -1,25 +1,37 @@
 .contacto{
     color: #001030; 
-    font-family: 'Monsterrat', sans-serif;
+    /* font-family: 'Monsterrat', sans-serif; */
     width: 100%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:8em;
-
+    margin-top:8em; */
+    display: block;
+}
+form{
+    font-family:'Monsterrat', sans-serif ;
 }
 .formulario{    
-    width: 50%;
+    /* width: 50%; */
     margin: 2em;
     padding: 5px;
     display: flex;
     flex-flow: column;
     border-color: #001030;
     border-style: outset;
+    padding: 0.5em;
 }
 .titulo{
     margin: 1px;
-    padding: 1px;    
+    padding: 1px;  
+    font-weight: bold;
+}
+.titulo h2{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    margin: 1em;
+    font-family: 'Bebas Neue', cursive;
 }
 .form-label{
     margin: 2px;
@@ -38,6 +50,7 @@
     width: 100%;
     font-size: small;
     margin: 2px;
+    margin-top: 3em;
     padding: 2px;
     display: flex;
     justify-content: space-evenly;
@@ -51,4 +64,133 @@
 }
 .btnSubmit:hover {
     background-color: #ff1d1c;
+}
+
+
+
+/* ----------- SEGUNDA SECCION GRID---------- */
+.consultas h3{
+    color: #001030;
+}
+.contenedor-grid i{
+    /* color: #ff1d1c; */
+    color: #001030;
+}
+
+.contacto .contenedor-grid{
+    margin-top: 9em;
+    margin-bottom: 4em;
+    margin-right: 2em;
+    margin-left: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "consulta medio sitio";
+    text-align: center; 
+    /* border: 2px solid #ff1d1c; */
+}
+
+.contacto .contenedor-grid .consultas{
+    grid-area: consulta;
+    border-right: 2px solid #ff1d1c;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+}
+
+.contacto .contenedor-grid .consultas h3{
+    font-weight: bold;
+    /* color: #ff1d1c; */
+    margin-bottom: 0.5em;
+}
+
+.contacto .contenedor-grid .consultas i{
+    margin-bottom: 1em; 
+    /* color: #001030; */
+    border-top-left-radius: 0.8em;
+    border-top-right-radius: 0.8em;
+    border-bottom-right-radius: 0.8em;
+    opacity: 1; 
+}
+
+.contacto .contenedor-grid .consultas i:hover{
+    opacity: 0.8; 
+    color: #ff1d1c;
+}
+
+.contacto .contenedor-grid .medios{
+    grid-area: medio;
+    padding: 1em;
+    border-right: 2px solid #ff1d1c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.contacto .contenedor-grid .medios h3{
+    font-weight: bold;
+    /* color:#ff1d1c; */
+    margin-bottom: 0.5em;
+
+}
+      
+.contacto .contenedor-grid .medios i{
+    margin-bottom: 1em; 
+    /* color: #001030; */
+    border-radius: 0.3em;
+    background-color: none;
+}
+
+
+.contacto .contenedor-grid .sitio{
+    grid-area: sitio;
+    border-right: none;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.contacto .contenedor-grid .sitio h3{
+    font-weight:bold; 
+    /* color: #ff1d1c; */
+    margin-bottom: 0.5em;
+
+}
+    
+.contacto .contenedor-grid .sitio i{
+    margin-bottom: 1em; 
+    border-radius: 0.3em;
+    background-color: none; 
+    /* color: #001030; */
+}
+
+
+/* MEDIA QUERIES PARA EL GRID */
+@media (max-width:480px){
+    /* SECCION DOS DEL INDEX */
+    .contacto .contenedor-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas: 
+            "consulta"
+            "medio"
+            "sitio";
+    }
+    .contacto .contenedor-grid .medios{
+        border-right: none;
+        border-bottom: 2px solid #001030;
+        margin-top: 2em;
+    }
+
+    .contacto .contenedor-grid .sitio{
+        margin-top: 2em;
+    }
+    
+    .contacto .contenedor-grid .consultas{
+        border-right: none;
+        border-bottom: 2px solid #001030; 
+    }
+    .contendor-imagen{
+        margin-top: 3em;
+    }
+
 }
