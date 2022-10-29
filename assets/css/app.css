@@ -481,7 +481,7 @@ main .contenedor-grid .sitio i{
         font-size: 4em;
     }
     .seccion-productos h2{
-        font-size: 2em;
+        font-size: 3em;
     }
     .div-descripcion{
         margin-top: 2em;
@@ -499,6 +499,9 @@ main .contenedor-grid .sitio i{
     .iframe-youtube{
         width:550px;
 
+    }
+    .seccion-productos h2{
+        font-size: 3em;
     }
     .section-main h1{
         font-size: 50px;
@@ -522,15 +525,21 @@ main .contenedor-grid .sitio i{
     .div-descripcion{
         margin-top: 2em;
     }
+    .seccion-productos h2{
+        font-size: 3em;
+    }
       
 }
 @media (min-width:864px) and (max-width:948px){
     .div-descripcion{
         margin-top: 2em;
     }
+    .seccion-productos h2{
+        font-size: 3em;
+    }
       
 }
-/* @media (min-width: 948px) and (max-width:1100px){
+@media (min-width: 948px) and (max-width:1100px){
     .div-producto{
         width:13em;
     }
@@ -540,7 +549,7 @@ main .contenedor-grid .sitio i{
     .div-descripcion{
         margin-top: 2em;
     }
-} */
+}
 
 @media (min-width: 1100px) and (max-width:1241px){
     .div-producto{

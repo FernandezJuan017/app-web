@@ -1,4 +1,4 @@
-//javascript for navigation bar effect on scroll
+//Efecto scroll al navegar en index
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
     header.classList.toggle('down', window.scrollY > 0);
@@ -13,15 +13,15 @@ window.addEventListener("scroll", function(){
 
   });
 
-  //javascript for responsive navigation sidebar menu
-  let menu = document.querySelector('.menu');
-  let menuBtn = document.querySelector('.menu-btn');
-  let closeBtn = document.querySelector('.close-btn');
+//Efecto para navegacion responsive menu sidebar
+let menu = document.querySelector('.menu');
+let menuBtn = document.querySelector('.menu-btn');
+let closeBtn = document.querySelector('.close-btn');
 
-  menuBtn.addEventListener("click", () => {
-    menu.classList.add('active');
-  });
+menuBtn.addEventListener("click", () => {
+  menu.classList.add('active');
+});
 
-  closeBtn.addEventListener("click", () => {
-    menu.classList.remove('active');
-  });
+closeBtn.addEventListener("click", () => {
+  menu.classList.remove('active');
+});

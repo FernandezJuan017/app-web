@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-/* seccion banner */
+/* SECCION BANNER */
 .imagen-fondo{
     background-image: url(../images/prueba13.jpg);
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
     font-weight: bold;
 }
 
-/*  seccion productos */
+/* SECCION PRODUCTOS */
 .titulo-productos{
     text-align: left;
     color:#001030;
@@ -107,6 +107,7 @@
     background-color: #ff1d1c;
     border-radius: 0.5em;
     padding: 0.5em;
+    border: none;
 }
 .icono{
     color: #001030;
