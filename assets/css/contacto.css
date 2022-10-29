@@ -1,6 +1,5 @@
 .contacto{
     color: #001030; 
-    /* font-family: 'Monsterrat', sans-serif; */
     width: 100%;
     /* display: flex;
     justify-content: center;
@@ -27,11 +26,12 @@ form{
     font-weight: bold;
 }
 .titulo h2{
-    font-size: 4em;
+    font-size: 5em;
     margin-bottom: 0.5em;
     text-align: center;
     margin: 1em;
     font-family: 'Bebas Neue', cursive;
+
 }
 .form-label{
     margin: 2px;
