@@ -32,7 +32,7 @@ Se usó box modeling, flexbox y grid a distintas secciones de la página. Tambi�
 
 ## INDEX
 Página principal, se implementó box modeling, flexbox y grid.
-Todas las secciones se utilizó las media queries para hacerlos responsive en distintos dispositivos.
+Todas las secciones se utilizó las media queries para hacerlos responsive en distintos dispositivos (a partir de 320px).
 
 
 
