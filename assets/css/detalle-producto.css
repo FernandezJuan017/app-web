@@ -22,8 +22,14 @@
     margin-right: 20px;
 }
 
+.text-descripcion{
+    margin-bottom: 40px;
+}
+
+
 .galeria-image{
     width: 100%;
+    max-height: 480px;
 }
 
 /* seccion banner */
@@ -55,117 +61,42 @@
 
 /*  seccion productos */
 .titulo-productos{
-    text-align: center;
+    text-align: left;
     color:#001030;
     font-family: 'Bebas Neue', cursive;
     margin-bottom: 1em;
-}
-.catalogo{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    flex-flow: wrap;
-    margin-left: 80px;
-    margin-right: 50px;
-}
-.card{
-    display: flex;
-    width: 80%;
-    margin-left: 20px;
-    /* max-width: 270px;   */
-    border: 1px solid #ccc;
-    margin-bottom: 50px;
-    transition: 0.3s; 
+    background-color:#001030;
+    padding: 0.2em;
+    color: #ffff;
+    /* margin-left: 80px ;
+    margin-right: 50px; */
+    border-left: 5px solid #ff1d1c;
 }
 
-.card-image{
-    width: 40%;
- display: inline;
-}
-.card-body{
-    width: 40%;
-    display: inline;
-}
-
-.card-image > img{
-    width: 200px;
-    height: 250px;
-    /* display: block; */
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-   /* width: 40%; */
-}
-.btn-comprar {
-    /* display: block; */
+.btn-comprar-detalle-prod {
+    display: block;
     color: #fff;
+    width: 100%;
     text-align: center;
     background: #ff1d1c;
     margin-top: 25px;
     text-decoration: none;
     padding: 10px 5px;
 }
-.btn-comprar:hover{
+.btn-comprar-detalle-prod:hover{
     color: #ff1d1c;
     background-color: #001030;
 }
-.precio{
-    font-size: 24px;
+.precio-detalle-producto{
+    font-size: 40px;
     font-weight: bold;
 }
 
-/* BOTON ARRIBA */
-/* .boton-arriba{
-    position: fixed;
-    bottom:0;
-    right: 0;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    z-index: 100;
-    opacity: 1;
-}
-.boton-arriba button{
-    background-color: #ff1d1c;
-    border-radius: 0.5em;
-    padding: 0.5em;
-}
-.icono{
-    color: #001030;
-}
-.boton-arriba button:hover{
-    opacity: 0.9;
-    transition: all 1s ease;
-}
-.boton-arriba button .icono:hover{
-   
-    color: #001030;
-} */
-
-
-@media screen and (max-width: 1200px) {
-    .card {
-      width: 33%;
-    }
-}
-
 @media screen and (max-width: 1000px) {
-    .card {
-      width: 40%;
+    .galeria-container{display: block;}
+    .galeria-container > div {
+        
+        width: 100%;
+        padding: 10px;
     }
-    .card-image > img{
-        width: 170px;
-        height: 230px;
-    }
-}
-
-@media screen and (max-width: 620px) {
-    .card {
-      width: 80%;
-    }
-    .catalogo{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
 }
