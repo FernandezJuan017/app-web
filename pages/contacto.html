@@ -1,40 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400&family=Yaldevi:wght@200&family=Zen+Old+Mincho&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="/css/header.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/contacto.css">
-  <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="icon" href="../assets/logo2.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400&family=Yaldevi:wght@200&family=Zen+Old+Mincho&display=swap"rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/header.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+  <link rel="stylesheet" href="../assets/css/contacto.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <header class="header-nav">
-    <a href="/index.html" class="brand">
-      <img src="/assets/images/logo2.jpg" id="logo-img">
+    <a href="../index.html" class="brand">
+      <img src="../assets/images/logo2.jpg" id="logo-img">
     </a>
     <nav class="menu-nav">
       <div class="btn">
         <i class="fas fa-times close-btn"></i>
       </div>
       <ul class="ul-nav">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/pages/catalogo.html">Catálogo</a></li>
-        <li><a href="/pages/donde-estamos.html">Dónde estamos</a></li>
-        <li><a href="/pages/contacto.html">Contacto</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/catalogo.html">Catálogo</a></li>
+        <li><a href="../pages/donde-estamos.html">Dónde estamos</a></li>
+        <li><a href="../pages/contacto.html">Contacto</a></li>
       </ul>
     </nav>
     <div class="btn">
@@ -43,18 +38,11 @@
   </header>
 
   <main class="contacto">
-    <div class="formulario">
-      <div class="titulo">
-        <h2 style="font-weight: bold;">CONTACTO</h2>
-        <h5>COMPLETE ESTE FORMULARIO</h5>
-      </div>
+    
+    <div class="formulario container">
+      <div class="row">
+        <div class="col-12 col-xl-6 ">
 
-<<<<<<< Updated upstream
-      <form action="mailto:direcciondelcorreo@correo.com" method="post" enctype="text/plain">
-        <div class="datoContacto">
-          <label class="form-label">Nombre y Apellido</label>
-          <input type="text" class="form-control" placeholder="Coloque su nombre completo">
-=======
           <div class="titulo">
             <h2 >C O N T A C T O</h2>
           </div>
@@ -97,7 +85,7 @@
               <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>			
             </div>
           </form>
->>>>>>> Stashed changes
+
         </div>
         <div class="datoContacto">
           <label class="form-label">Email</label>
@@ -106,18 +94,30 @@
         <div class="datoContacto">
           <label class="form-label">Número de Whatsapp</label>
           <input type="text" class="form-control" placeholder="Podriamos contactarnos por whatsapp">
+
         </div>
-        <div class="datoContacto">
-          <label class="form-label">Su Mensaje</label>
-          <textarea name="mensaje" id="" cols="30" rows="10" class="form-control"
-            placeholder="Describanos lo que desea consultar"></textarea>
+        <div class="col-xl-6 d-none d-xl-block d-xxl-none contenedor-imagen">
+          <img src="../assets/images/prueba-16-2.jpg" class="img-fluid" alt="imagen-contacto">
         </div>
-        <div class="lineaBtn">
-          <input type="submit" value="ENVIAR" class="btnSubmit">
-          <input type="reset" value="LIMPIAR" class="btnSubmit">
-        </div>
-      </form>
+      </div>
     </div>
+    <section class="contenedor-grid">
+      <div class="consultas">
+          <a href="https://wa.me/5493516330344?text=Hola!%20Quisiera%20realizar%20un%20pedido.%20Mi%20nombre%20es%20.....%20Lo%20necesito%20para%20el%20día%20....." target="_blank"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+          <h3>Consultas / Pedidos </h3>
+          <p>Para consultas o pedidos podés enviarnos un whatsapp</p>
+      </div>
+      <div class="medios">
+        <i class="fa-regular fa-credit-card fa-2xl"></i>
+            <h3>Medios de pago</h3>
+            <p>Aboná en efectivo / transferencia / mercado pago</p>
+      </div>
+      <div class="sitio">
+          <i class="fa-solid fa-lock fa-2xl"></i>
+          <h3>Sitio Seguro</h3>
+          <p>Protegemos tus datos</p>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -130,19 +130,18 @@
         <a href="https://wa.me/5493516061187?text=Hola!%20Quisiera%20realizar%20un%20pedido.%20Mi%20nombre%20es%20..."
           target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
       </div>
-      <a href="index.html" class="brand">
-        <img src="/assets/images/logo2.jpg" id="logo-footer">
+      <a href="../index.html" class="brand">
+        <img src="../assets/images/logo2.jpg" id="logo-footer">
       </a>
     </section>
   </footer>
 
-<<<<<<< Updated upstream
-  <script src="/js/script-2.js"></script>
-=======
-  <script src="/assets/js/formulario.js"></script>
+
+
+  <script src="../assets/js/formulario.js"></script>
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-  <script src="/assets/js/script-2.js"></script>
->>>>>>> Stashed changes
+  <script src="../assets/js/script-2.js"></script>
+
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

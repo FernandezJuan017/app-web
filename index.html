@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maverick</title>
-    <link rel="stylesheet" href="./css/app.css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="icon" href="assets/logo2.ico">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400&family=Yaldevi:wght@200&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,8 +15,8 @@
 <body>
     <!--BARRA DE NAVEGACION-->
     <header class="header-index">
-        <a href="index.html" class="brand">
-            <img src="/assets/images/logo2.jpg" id="logo-img">
+        <a href="./index.html" class="brand">
+            <img src="./assets/images/logo2.jpg" id="logo-img">
         </a>
         <nav class="menu">
           <div class="btn">
@@ -23,9 +24,9 @@
           </div>
           <ul>
               <li><a href="index.html">Home</a></li>
-              <li><a href="/pages/catalogo.html">Catálogo</a></li>
-              <li><a href="/pages/donde-estamos.html">Dónde estamos</a></li>
-              <li><a href="/pages/contacto.html">Contacto</a></li>
+              <li><a href="pages/catalogo.html">Catálogo</a></li>
+              <li><a href="pages/donde-estamos.html">Dónde estamos</a></li>
+              <li><a href="pages/contacto.html">Contacto</a></li>
           </ul>
         </nav>
         <div class="btn">
@@ -41,7 +42,7 @@
         <!--  SECCION DESCRIPCION DEL BANNER -->
           <section class="section-main">
             <div class="contenedor">
-              <h1 id="description-banner">
+              <h1 id="descripcion-banner">
                 MAVERICK
               </h1>
             </div>  
@@ -69,44 +70,44 @@
       <!-- SECCION DOS -->
           <section class="imagen-fondo">
             <h1 class="titulo-banner">Conocé la nueva colección primavera-verano</h1>
-            <p class="texto-banner">Visitanos</p>
+            <button id="boton-catalogo"><a href="./pages/catalogo.html" id="enlace-catalogo">CATÁLOGO</a></button>
           </section>
 
 
       <!-- SECCION TRES -->
           <section class="seccion-productos">
-            <h2>PRODUCTOS DESTACADOS</h2>
+            <h2>D E S T A C A D O S</h2>
             <div class="contenedor-productos">
               <div class="div-producto">
-                <img src="/assets/images/camiseta.jpg" alt="Chomba">
+                <img src="assets/images/camiseta.jpg" alt="camiseta">
                 <h3 class="titulo-card">REMERA</h3>
-                <button class="boton-card"><a href="/pages/contacto.html" class="boton-hace-tu-pedido ">COMPRAR</a></button>
+                <button class="boton-card"><a href="pages/contacto.html" class="boton-hace-tu-pedido ">COMPRAR</a></button>
               </div>
               <div class="div-producto">
-                <img src="/assets/images/buzo.jpg" alt="">
+                <img src="assets/images/buzo.jpg" alt="buzo">
                 <h3 class="titulo-card">BUZO</h3>
-                <button class="boton-card"><a href="/pages/contacto.html" class=" boton-hace-tu-pedido ">COMPRAR</a></button>
+                <button class="boton-card"><a href="pages/contacto.html" class=" boton-hace-tu-pedido ">COMPRAR</a></button>
               </div>
               <div class="div-producto">
-                <img src="/assets/images/jean.jpg" alt="">
+                <img src="assets/images/jean.jpg" alt="pantalon">
                 <h3 class="titulo-card">PANTALON</h3>
-                <button class="boton-card"><a href="/pages/contacto.html" class=" boton-hace-tu-pedido ">COMPRAR</a></button>
+                <button class="boton-card"><a href="pages/contacto.html" class=" boton-hace-tu-pedido ">COMPRAR</a></button>
               </div>
               <div class="div-producto">
-                <img src="/assets/images/campera.jpg" alt="">
+                <img src="assets/images/campera.jpg" alt="campera">
                 <h3 class="titulo-card">CAMPERA</h3>
-                <button class="boton-card"><a href="/pages/contacto.html" class=" boton-hace-tu-pedido ">COMPRAR</a></button>
+                <button class="boton-card"><a href="pages/contacto.html" class=" boton-hace-tu-pedido ">COMPRAR</a></button>
               </div>
             </div>
             <div class="div-ver-todos">
-              <button class=" boton-ver-todos" type="button"><a href="/pages/catalogo.html">VER TODOS</a></button>
+              <button class=" boton-ver-todos" type="button"><a href="pages/catalogo.html">VER TODOS</a></button>
           </div>
           </section>
 
         <!-- SECCION CUATRO VER ESTA SECCION POR LA MEDIA QUERIES 560PX-->
         <section class="seccion-cuatro">
           <div >
-            <iframe  width="560" height="315" src="https://www.youtube.com/embed/IFEfxVWqnrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="iframe-youtube" width="400" height="315" src="https://www.youtube.com/embed/IFEfxVWqnrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="div-descripcion">
             <h3>CONOCE LA NUEVA COLECCION</h3>
@@ -126,10 +127,10 @@
             <a href="https://wa.me/5493516061187?text=Hola!%20Quisiera%20realizar%20un%20pedido.%20Mi%20nombre%20es%20..." target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
         </div>
         <a href="index.html" class="brand">
-          <img src="/assets/images/logo2.jpg" id="logo-footer">
+          <img src="assets/images/logo2.jpg" id="logo-footer">
         </a>
       </section>
     </footer>
-    <script src="/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

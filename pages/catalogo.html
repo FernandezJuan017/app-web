@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo</title>
+    <link rel="icon" href="../assets/logo2.ico">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400&family=Yaldevi:wght@200&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/catalogo.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/catalogo.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -16,18 +17,18 @@
 </head>
 <body>
     <header class="header-nav">
-        <a href="/index.html" class="brand">
-            <img src="/assets/images/logo2.jpg" id="logo-img">
+        <a href=".././index.html" class="brand">
+            <img src="../assets/images/logo2.jpg" id="logo-img">
         </a>
         <nav class="menu-nav" >
           <div class="btn">
             <i class="fas fa-times close-btn"></i>
           </div>
           <ul class="ul-nav">
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/pages/catalogo.html">Catálogo</a></li>
-              <li><a href="/pages/donde-estamos.html">Dónde estamos</a></li>
-              <li><a href="/pages/contacto.html">Contacto</a></li>
+              <li><a href=".././index.html">Home</a></li>
+              <li><a href="../pages/catalogo.html">Catálogo</a></li>
+              <li><a href="../pages/donde-estamos.html">Dónde estamos</a></li>
+              <li><a href="../pages/contacto.html">Contacto</a></li>
           </ul>
         </nav>
         <div class="btn">
@@ -37,99 +38,229 @@
 
        <!--CUERPO DEL CATALOGO--> 
       <main class="principal">
-         <section class="catalogo">
-  
-              <article class="card">
-                <div class="card-image">
-                  <img src="../assets/images/camiseta.jpg" alt="producto">
-                </div>
-                <div class="card-body">
-                  <h4>Camiseta M-Larga Blanca</h4>
-                  <p class="precio">$1202<p/>
-                  <a href="#" class="btn-comprar">Comprar</a>
-                </div>
-              </article>
-  
-              <article class="card">
-                <div class="card-image">
-                  <img src="../assets/images/remera.jpg" alt="producto">
-                </div>
-                <div class="card-body">
-                  <h4>Remera Negra Estilo Estampada</h4>
-                  <p class="precio">$1202<p/>
-                  <a href="#" class="btn-comprar">Comprar</a>
-                </div>
-              </article>
 
-              <article class="card">
-                <div class="card-image">
-                  <img src="../assets/images/chomba.jpg" alt="producto">
-                </div>
-                <div class="card-body">
-                  <h4>Chomba Gris Estilo Mod.<br></h4>
-                  <p class="precio">$1202<p/>
-                  <a href="#" class="btn-comprar">Comprar</a>
-                </div>
-              </article>
-              
-              <article class="card">
-                <div class="card-image">
-                  <img src="../assets/images/campera.jpg" alt="producto">
-                </div>
-                <div class="card-body">
-                  <h4>Campera Roja Invierno</h4>
-                  <p class="precio">$2399<p/>
-                  <a href="#" class="btn-comprar">Comprar</a>
-                </div>
-              </article>
-              <article class="card">
-                <div class="card-image">
-                  <img src="../assets/images/pant.jpg" alt="producto">
-                </div>
-                <div class="card-body">
-                  <h4>Pantalon Vest. Elegant.</h4>
-                  <p class="precio">$1202<p/>
-                  <a href="#" class="btn-comprar">Comprar</a>
-                </div>
-              </article>
+        <section class="imagen-fondo">
+          <h1 class="titulo-banner" id="catalogo"> C A T Á L O G O </h1>
+          <h3 class="texto-banner">Conocé toda la nueva colección</h3>
+        </section>
+          <h1 class="titulo-productos">NUESTROS PRODUCTOS</h1>
 
-              <article class="card">
-                <div class="card-image">
-                  <img src="../assets/images/jean-blanco.jpg" alt="producto">
-                </div>
-                <div class="card-body">
-                  <h4>Jean Blanco E. Sport</h4>
-                  <p class="precio">$2350<p/>
-                  <a href="#" class="btn-comprar">Comprar</a>
-                </div>
-              </article>
+        <section class="catalogo">
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/chomba.jpg" alt="chomba">
+            </div>
+            <div class="card-body">
+              <h4>Chomba Gris Estilo Mod.<br></h4>
+              <p class="precio">$5600</p>
+              <a href="../pages/detalle-producto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+      
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/remera.jpg" alt="remera">
+            </div>
+            <div class="card-body">
+              <h4>Remera Negra Estilo Estampada</h4>
+              <p class="precio">$4500</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+      
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/remera-blanca-lisa.jpg" alt="remera">
+            </div>
+            <div class="card-body">
+              <h4>Remera Blanca Lisa M. Corta</h4>
+              <p class="precio">$4200</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
 
-              <article class="card">
-                <div class="card-image">
-                  <img src="../assets/images/camiseta.jpg" alt="producto">
-                </div>
-                <div class="card-body">
-                  <h4>Camiseta Vest. Elegant.</h4>
-                  <p class="precio">$1202<p/>
-                  <a href="#" class="btn-comprar">Comprar</a>
-              </div>
-              </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/camisa-cuadros.jpg" alt="camisa">
+            </div>
+            <div class="card-body">
+              <h4>Camisa M. Largas a Cuadros</h4>
+              <p class="precio">$8000</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
 
-              <article class="card">
-                <div class="card-image">
-                  <img src="../assets/images/camiseta.jpg" alt="producto">
-                </div>
-                <div class="card-body">
-                  <h4>Remera Vest. Elegant.</h4>
-                  <p class="precio">$1202<p/>
-                  <a href="#" class="btn-comprar">Comprar</a>
-                </div>
-              </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/camiseta.jpg" alt="camiseta">
+            </div>
+            <div class="card-body">
+              <h4>Camiseta M-Larga Blanca</h4>
+              <p class="precio">$6800</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+      
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/campera.jpg" alt="campera">
+            </div>
+            <div class="card-body">
+              <h4>Campera Roja Invierno</h4>
+              <p class="precio">$12000</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/pant.jpg" alt="pantalon">
+            </div>
+            <div class="card-body">
+              <h4>Pantalon Vest. Elegant.</h4>
+              <p class="precio">$8900</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+      
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/jean-blanco.jpg" alt="jean blanco">
+            </div>
+            <div class="card-body">
+              <h4>Jean Blanco Straight Sport</h4>
+              <p class="precio">$9300</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
 
-  
-          </section>
-
-      </main>  
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/camiseta-2-1.jpg" alt="chomba blanca">
+            </div>
+            <div class="card-body">
+              <h4>Chomba Blanca Alegre</h4>
+              <p class="precio">$5800</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/remera-3-1.jpg" alt="producto">
+            </div>
+            <div class="card-body">
+              <h4>Remera azul Mile End</h4>
+              <p class="precio">$7600</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/remera-crema-1.jpg" alt="remera">
+            </div>
+            <div class="card-body">
+              <h4>Remera La Paz Guerreiro</h4>
+              <p class="precio">$7200</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/camisa-cuadros-2-1.jpg" alt="camisa">
+            </div>
+            <div class="card-body">
+              <h4>Camisa Paris Long Sleeve</h4>
+              <p class="precio">$8900</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/camisa-cuadros-3-1.jpg" alt="camisa">
+            </div>
+            <div class="card-body">
+              <h4>Camisa La Paz Lopes</h4>
+              <p class="precio">$9100</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/camisa-lisa-1.jpg" alt="camisa">
+            </div>
+            <div class="card-body">
+              <h4>Camisa French Blue</h4>
+              <p class="precio">$13000</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/camisa-negra-1.jpg" alt="camisa">
+            </div>
+            <div class="card-body">
+              <h4>Camisa Portuguese Black</h4>
+              <p class="precio">$12000</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/chaleco-1.jpg" alt="chaleco">
+            </div>
+            <div class="card-body">
+              <h4>Chaleco crema sport</h4>
+              <p class="precio">$9900</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/buzo-2-1.jpg" alt="buzo azul">
+            </div>
+            <div class="card-body">
+              <h4>Buzo Azul Deep Amethyst</h4>
+              <p class="precio">$8700</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/buzo-3-1.jpg" alt="buzo">
+            </div>
+            <div class="card-body">
+              <h4>Buzo gris Dusty Charcoal</h4>
+              <p class="precio">$8800</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/buzo-4-1.jpg" alt="buzo">
+            </div>
+            <div class="card-body">
+              <h4>Buzo Camel Humbie Sweat</h4>
+              <p class="precio">$11100</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <img src="../assets/images/buzo-verde.jpg" alt="buzo">
+            </div>
+            <div class="card-body">
+              <h4>Buzo Forest Green</h4>
+              <p class="precio">$9900</p>
+              <a href="../pages/contacto.html" class="btn-comprar">Comprar</a>
+            </div>
+          </article>
+          <!-- BOTON ARRIBA -->
+          <div class="boton-arriba">
+            <button><a href="#catalogo" class="icono"><i class="fa-solid fa-arrow-up fa-2x"></i></a></button>
+          </div>
+        </section>
+      
+      </main>
 
       <footer>
         <section class="section-footer">
@@ -140,15 +271,15 @@
             <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a>
             <a href="https://wa.me/5493516061187?text=Hola!%20Quisiera%20realizar%20un%20pedido.%20Mi%20nombre%20es%20..." target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
           </div>
-          <a href="index.html" class="brand">
-            <img src="/assets/images/logo2.jpg" id="logo-footer">
+          <a href="../index.html" class="brand">
+            <img src="../assets/images/logo2.jpg" id="logo-footer">
           </a>
         </section>
       </footer>
 
     
       
-      <script src="/js/script-2.js"></script>
+      <script src="../assets/js/script-2.js"></script>
       <!-- JavaScript Bundle with Popper -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 

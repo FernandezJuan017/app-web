@@ -1,0 +1,102 @@
+.principal{
+    display:block 
+}
+
+.galeria-container {
+    display: flex;
+    width: 80%;
+    margin:auto;
+   align-self: center;
+    /* max-width: 270px;   */
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s; 
+}
+
+.galeria-container > div {
+    width: 50%;
+    padding: 10px;
+}
+
+.galeria-container > div:first-child {
+    margin-right: 20px;
+}
+
+.text-descripcion{
+    margin-bottom: 40px;
+}
+
+
+.galeria-image{
+    width: 100%;
+    max-height: 480px;
+}
+
+/* seccion banner */
+.imagen-fondo{
+    background-image: url(../images/prueba13.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 30em;
+    margin-bottom: 3em;
+}
+
+.texto-banner{
+    color: #ff1d1c;
+    text-align: center;
+    padding-top: 1em;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Bebas Neue', cursive;  
+}
+.titulo-banner{
+    color: #ff1d1c;
+    text-align: center;
+    padding-top: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+
+/*  seccion productos */
+.titulo-productos{
+    text-align: left;
+    color:#001030;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 1em;
+    background-color:#001030;
+    padding: 0.2em;
+    color: #ffff;
+    /* margin-left: 80px ;
+    margin-right: 50px; */
+    border-left: 5px solid #ff1d1c;
+}
+
+.btn-comprar-detalle-prod {
+    display: block;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    background: #ff1d1c;
+    margin-top: 25px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+.btn-comprar-detalle-prod:hover{
+    color: #ff1d1c;
+    background-color: #001030;
+}
+.precio-detalle-producto{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    .galeria-container{display: block;}
+    .galeria-container > div {
+        
+        width: 100%;
+        padding: 10px;
+    }
+}
