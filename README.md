@@ -25,17 +25,11 @@ Se usó box modeling, flexbox y grid a distintas secciones de la página. Tambi�
 
 2. pages
 
-- catalogo: en esta seccion se encuentra nuestros productos de indumentaria utilizando flexbox.
+- catalogo: en esta seccion se encuentra nuestros productos de indumentaria utilizando flexbox. El primer producto en su botón "comprar" te redirige a otra página (detalle-producto), viéndolo de manera independiente. Para agregar al proyecto una API se pensó en esta seccion reemplazar la foto del producto. Se utilizó la API de UNSPLASH.
 - contacto: se encuentra el formulario realizado con bootstrap, y algunas validaciones con javascript.
 - donde-estamos: se utilizó un iframe para la ubicación del local.
-- detalle-producto: en esta página se observa una "visualizacion del producto" de manera independiente. Para agregar al proyecto una API se pensó en esta seccion reemplazar la foto del producto. Se utilizó la API de UNSPLASH.
+- detalle-producto: en esta página se observa una "visualizacion del producto" de manera independiente.
 
 ## INDEX
 Página principal, se implementó box modeling, flexbox y grid.
 Todas las secciones se utilizó las media queries para hacerlos responsive en distintos dispositivos (a partir de 320px).
-
-
-
-
-
-

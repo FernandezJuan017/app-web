@@ -3,10 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*   
-body{
-  min-height: 100vh;
-} */
 
 main{
   margin-top: 8em;
@@ -37,15 +33,6 @@ main{
   padding: 15px 80px;
   background: #001030;
 }
-    
-/* .header-nav .brand{
-  font-size: 30px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-decoration: none;
-} */
     
 .header-nav .menu-nav{
   display: flex;
@@ -110,7 +97,6 @@ main{
   .header-nav .menu-nav{
     position: fixed;
     min-width: 330px;
-    /* background-color: #001030; */
     top: 0;
     height: 100vh;
     padding: 50px 50px;
