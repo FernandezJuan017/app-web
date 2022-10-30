@@ -7,7 +7,6 @@
     width: 80%;
     margin:auto;
    align-self: center;
-    /* max-width: 270px;   */
     border: 1px solid #ccc;
     margin-bottom: 50px;
     transition: 0.3s; 
@@ -46,7 +45,6 @@
     color: #ff1d1c;
     text-align: center;
     padding-top: 1em;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Bebas Neue', cursive;  
 }
 .titulo-banner{
@@ -68,8 +66,6 @@
     background-color:#001030;
     padding: 0.2em;
     color: #ffff;
-    /* margin-left: 80px ;
-    margin-right: 50px; */
     border-left: 5px solid #ff1d1c;
 }
 

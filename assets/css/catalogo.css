@@ -17,7 +17,6 @@
     color: #ff1d1c;
     text-align: center;
     padding-top: 1em;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Bebas Neue', cursive;  
 }
 
@@ -68,7 +67,6 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-   /* width: 40%; */
 }
 .btn-comprar {
     display: block;

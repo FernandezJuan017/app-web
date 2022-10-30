@@ -49,14 +49,6 @@ header.down{
     padding: 15px 80px;
 }
   
-/* header .brand{
-    color: #fff;
-    font-size: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-}   */
 header .menu{
     position: relative;
     display: flex;

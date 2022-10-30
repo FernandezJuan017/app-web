@@ -1,18 +1,12 @@
 .contacto{
     color: #001030; 
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top:8em; */
     display: block;
-    /* margin-top: 12em; */
 }
 form{
     font-family:'Monsterrat', sans-serif ;
 }
 .formulario{    
-    /* width: 50%; */
     margin: 2em;
     padding: 5px;
     display: flex;
@@ -47,21 +41,11 @@ form{
 .formulario__label{
     margin: 2px;
     padding: 2px;
-    /*display: block;
-	font-weight: 700;
-	padding: 10px;
-	cursor: pointer;*/
+
 }
 .formulario__input{
     font-size: small;
-    /*width: 100%;
-	background: #fff;
-	border: 3px solid transparent;
-	border-radius: 3px;
-	height: 45px;
-	line-height: 45px;
-	padding: 0 40px 0 10px;
-	transition: .3s ease all;*/    
+ 
 }
 .formulario__input:focus {
 	border: 3px solid #0075FF;
@@ -131,18 +115,10 @@ form{
 
 .formulario__grupo-btn-enviar {
 	display: flex;
-	/*flex-direction: column;
-	align-items: center;*/
     padding: 2px;
     display: flex;
     justify-content: space-evenly;
-    /* width: 100%;
-    font-size: small;
-    margin: 2px;
-    margin-top: 3em;
-    padding: 2px;
-    display: flex;
-    justify-content: space-evenly;*/
+
 }
 .formulario__mensaje-exito {
 	font-size: 14px;
@@ -180,7 +156,6 @@ form{
     color: #001030;
 }
 .contenedor-grid i{
-    /* color: #ff1d1c; */
     color: #001030;
 }
 
@@ -194,7 +169,6 @@ form{
     grid-template-rows: 1fr;
     grid-template-areas: "consulta medio sitio";
     text-align: center; 
-    /* border: 2px solid #ff1d1c; */
 }
 
 .contacto .contenedor-grid .consultas{
@@ -207,13 +181,11 @@ form{
 
 .contacto .contenedor-grid .consultas h3{
     font-weight: bold;
-    /* color: #ff1d1c; */
     margin-bottom: 0.5em;
 }
 
 .contacto .contenedor-grid .consultas i{
     margin-bottom: 1em; 
-    /* color: #001030; */
     border-top-left-radius: 0.8em;
     border-top-right-radius: 0.8em;
     border-bottom-right-radius: 0.8em;
@@ -235,14 +207,12 @@ form{
 
 .contacto .contenedor-grid .medios h3{
     font-weight: bold;
-    /* color:#ff1d1c; */
     margin-bottom: 0.5em;
 
 }
       
 .contacto .contenedor-grid .medios i{
     margin-bottom: 1em; 
-    /* color: #001030; */
     border-radius: 0.3em;
     background-color: none;
 }
@@ -258,7 +228,6 @@ form{
 
 .contacto .contenedor-grid .sitio h3{
     font-weight:bold; 
-    /* color: #ff1d1c; */
     margin-bottom: 0.5em;
 
 }
@@ -267,7 +236,6 @@ form{
     margin-bottom: 1em; 
     border-radius: 0.3em;
     background-color: none; 
-    /* color: #001030; */
 }
 
 
